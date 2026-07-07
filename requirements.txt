@@ -1,0 +1,9 @@
+# Core (required)
+pillow>=10.0
+
+# Real vision-LLM backend (needed for --provider anthropic)
+anthropic>=0.40
+
+# Optional conveniences
+python-dotenv>=1.0    # load .env files
+requests>=2.31        # load images from URLs
